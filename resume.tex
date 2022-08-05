@@ -1,0 +1,70 @@
+% Resume Template by Cristian Palma Foster
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2cm,top=1.5cm,right=2cm,bottom=2.5cm]{geometry} 
+% Manage images
+\usepackage{graphicx}
+% Place images
+\usepackage{wrapfig}
+% Make columns
+\usepackage{multicol}
+% Resize titles
+\usepackage{sectsty}
+\usepackage{hyperref}
+\usepackage{xcolor}
+% Erase page numbers
+\pagenumbering{gobble}
+% Well spaced paragraphs
+\setlength{\parskip}{-5pt}
+\setlength\parindent{0pt}
+% Set the section size
+\sectionfont{\fontsize{12}{15}\selectfont}
+% Well spaced lines in tables
+\renewcommand{\arraystretch}{1.3}
+
+% Contact Information
+\newcommand{\contactinformation}[1]{
+    \begin{center}
+        \vspace{1cm}
+        \huge\textbf{Cristian Palma - #1}\\
+        \vspace{0.3cm}
+        \normalsize
+        \href{mailto:cristian.palma.foster@gmail.com}{cristian.palma.foster@gmail.com},
+		\href{http://www.linkedin.com/in/cristianpalmaf}{linkedin.com/in/cristianpalmaf},
+		\href{http://www.github.com/elcrislwh}{github.com/elcrislwh}
+        \\
+    \end{center}
+}
+
+\newenvironment{concept}[1]{
+    \vspace{0.2cm}
+    \begin{large} \textcolor{gray}{\textbf{#1:}}\end{large}\\
+    \vspace{-0.1cm}
+    
+}{}
+
+\newcommand{\job}[2]{
+    \large \textbf{#1} \hfill \small \textcolor{gray}{\textit{#2}}\\
+}
+\newcommand{\data}[2]{
+    \normalsize #1 \hfill \small \textcolor{gray}{\textit{#2}}\\
+}
+\newcommand{\desc}[1]{
+    \normalsize #1 
+    \vspace{0.2cm}\\
+}
+
+\newenvironment{map}[1]{
+    \concept{#1}
+    
+    \hspace{-0.3cm}
+    \begin{tabular}{lr}
+}{ 
+    \end{tabular}\\
+}
+
+\newcommand{\entry}[2]{
+    #1 & #2\\
+}
+
+\newenvironment{text}[1]{\begin{large} \textbf{#1:}\end{large}\\}{}
