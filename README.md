@@ -35,18 +35,10 @@ You can either clone this repository and work with it in any text editor of your
 
 Here are the compiled versions of my resumes, the positions I currently desire are those related with Software Engineering (Backend Development mainly) and Mathematical Engineering (Applied Math), and I am willing to relocate anywhere for a company that uses English, French or Spanish as its wotking language. If you are a recruiter and you want to know more about me do not hesitate to contact me! [This](http://www.linkedin.com/in/cristianpalmaf) is my linkedin profile and you can email me [here](mailto:cristian.palma.foster@gmail.com).
 
-## Software Engineering (English Version)
+-   [Software Engineering (English Version)](./software_en.pdf)
 
-<img width="1438" alt="image" src="./software_en.pdf">
+-   [Mathematical Engineering (English Version)](./math_en.pdf)
 
-## Mathematical Engineering (English Version)
+-   [Software Engineering (Spanish Version)](./software_es.pdf)
 
-<img width="1438" alt="image" src="./math_en.pdf">
-
-## Software Engineering (Spanish Version)
-
-<img width="1438" alt="image" src="./software_es.pdf">
-
-## Mathematical Engineering (Spanish Version)
-
-<img width="1438" alt="image" src="./mathes.pdf">
+-   [Mathematical Engineering (Spanish Version)](./math_es.pdf)
