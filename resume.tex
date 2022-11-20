@@ -37,7 +37,7 @@
 }
 
 \newenvironment{concept}[1]{
-    \vspace{0.2cm}
+    \vspace{0.1cm}
     \begin{large} \textcolor{gray}{\textbf{#1:}}\end{large}\\
     \vspace{-0.1cm}
     
@@ -47,10 +47,10 @@
     \large \textbf{#1} \hfill \small \textcolor{gray}{\textit{#2}}\\
 }
 \newcommand{\data}[2]{
-    \normalsize #1 \hfill \small \textcolor{gray}{\textit{#2}}\\
+    \small #1 \hfill \small \textcolor{gray}{\textit{#2}}\\
 }
 \newcommand{\desc}[1]{
-    \normalsize #1 
+    \small #1 
     \vspace{0.2cm}\\
 }
 
@@ -64,5 +64,5 @@
 }
 
 \newcommand{\entry}[2]{
-    #1 & #2\\
+    \small #1 & \small #2\\
 }
