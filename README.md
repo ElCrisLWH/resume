@@ -11,11 +11,11 @@ Basic Latex knowledge might help understanding and developing.
 
 The repo currently has a `resume.tex` which contains all the necessary commands to build your resume.
 
-The other files are my own resumes by desired position and language.
+The other files are my own resumes by language (English and Spanish).
 
 ## Features
 
-As every resume should have, the main sections are Contact Information, Education, Work Experience, Teaching Assistantships, Projects, Honors, Computer Skills, Languages, Free Time. Any of these can be skipped if not relevant or if you do not have that kind fo experience.
+As every resume should have, the main sections are Contact Information, Education, Work Experience, Teaching Assistantships, Projects, Honors, Computer Skills, Languages, Free Time. Any of these can be skipped if not relevant or if you do not have that kind of experience.
 
 The commands are:
 
@@ -33,12 +33,10 @@ You can either clone this repository and work with it in any text editor of your
 
 # My Resumes
 
-Here are the compiled versions of my resumes, the positions I currently desire are those related with Software Engineering (Backend Development mainly) and Mathematical Engineering (Applied Math), and I am willing to relocate anywhere for a company that uses English, French or Spanish as its wotking language. If you are a recruiter and you want to know more about me do not hesitate to contact me! [This](http://www.linkedin.com/in/cristianpalmaf) is my linkedin profile and you can email me [here](mailto:cristian.palma.foster@gmail.com).
+Here are the compiled versions of my resumes, the positions I currently desire are those related with Applied Math, and I am willing to relocate anywhere for a company that uses English, French or Spanish as its working language.
 
--   [Software Engineering (English Version)](./software_en.pdf)
+-   [English Version](./temp/math_en.pdf)
 
--   [Mathematical Engineering (English Version)](./math_en.pdf)
+-   [Spanish Version](./temp/math_es.pdf)
 
--   [Software Engineering (Spanish Version)](./software_es.pdf)
-
--   [Mathematical Engineering (Spanish Version)](./math_es.pdf)
+If you are recruiting and you want to know more about me do not hesitate to reach out! [This](http://www.linkedin.com/in/cristianpalmaf) is my linkedin profile.
