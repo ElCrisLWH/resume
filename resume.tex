@@ -25,33 +25,36 @@
 % Contact Information
 \newcommand{\contactinformation}[1]{
     \begin{center}
-        \vspace{1cm}
+        \vspace{0.7cm}
         \huge\textbf{Cristian Palma - #1}\\
         \vspace{0.3cm}
         \normalsize
         \href{mailto:cristian.palma.foster@gmail.com}{cristian.palma.foster@gmail.com},
-		\href{http://www.linkedin.com/in/cristianpalmaf}{linkedin.com/in/cristianpalmaf},
-		\href{http://www.github.com/elcrislwh}{github.com/elcrislwh}
+		\href{http://www.linkedin.com/in/cristianpalmaf}{linkedin.com/in/cristianpalmaf}
+		% \href{http://www.github.com/elcrislwh}{github.com/elcrislwh}
+		% \href{https://cristianpalma-portfolio.web.app}{cristianpalma-portfolio.web.app}
         \\
     \end{center}
 }
 
 \newenvironment{concept}[1]{
-    \vspace{0.1cm}
     \begin{large} \textcolor{gray}{\textbf{#1:}}\end{large}\\
-    \vspace{-0.1cm}
+    \vspace{-0.2cm}
     
 }{}
 
 \newcommand{\job}[2]{
-    \large \textbf{#1} \hfill \small \textcolor{gray}{\textit{#2}}\\
+    \normalsize \textbf{#1} \hfill \small \textcolor{gray}{\textit{#2}}\\
 }
 \newcommand{\data}[2]{
     \small #1 \hfill \small \textcolor{gray}{\textit{#2}}\\
 }
 \newcommand{\desc}[1]{
     \small #1 
-    \vspace{0.2cm}\\
+    \vspace{0.1cm}\\
+}
+\newcommand{\courses}[1]{
+    \footnotesize \textcolor{gray}{#1} \\
 }
 
 \newenvironment{map}[1]{
