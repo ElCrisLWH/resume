@@ -15,7 +15,7 @@ The other files are my own resumes by language (English and Spanish).
 
 ## Features
 
-As every resume should have, the main sections are Contact Information, Education, Work Experience, Teaching Assistantships, Projects, Honors, Computer Skills, Languages, Free Time. Any of these can be skipped if not relevant or if you do not have that kind of experience.
+The main sections are Contact Information, Education, Work Experience, Teaching Assistantships, Projects, Honors, Computer Skills, Languages, Free Time. Any of these can be skipped if not relevant or if you do not have that kind of experience.
 
 The commands are:
 
@@ -29,14 +29,18 @@ The commands are:
 
 ## Setup
 
-You can either clone this repository and work with it in any text editor of your choice, provided that you have a tex compiler, or download and use directly on any latex editor as [overleaf](https://www.overleaf.com/).
+You can either clone this repository and work with it in any text editor of your choice, provided that you have a TeX compiler, or download and use directly on any latex editor as [overleaf](https://www.overleaf.com/).
 
 # My Resumes
 
-Here are the compiled versions of my resumes, the positions I currently desire are those related with Applied Math, and I am willing to relocate anywhere for a company that uses English, French or Spanish as its working language.
+Here are the compiled versions of my resumes. I am currently looking at summer research internship opportunities in (Market) Algorithms and Combinatorial Optimization, and I am willing to relocate anywhere within the United States.
 
 -   [English Version](./temp/math_en.pdf)
 
 -   [Spanish Version](./temp/math_es.pdf)
 
-If you are recruiting and you want to know more about me do not hesitate to reach out! [This](http://www.linkedin.com/in/cristianpalmaf) is my linkedin profile.
+If you are recruiting and you want to know more about me do not hesitate to reach out!
+
+Send me an email at `[first] dot [last] dot foster at gmail dot com`.
+
+Check my [linkedin profile](http://www.linkedin.com/in/cristianpalmaf) and my [personal website](https://elcrislwh.github.io/).
