@@ -6,7 +6,7 @@
 \pagenumbering{gobble} % erase page numbers
 
 % Well spaced paragraphs
-\setlength{\parskip}{-1pt}
+\setlength{\parskip}{-5pt}
 \setlength\parindent{0pt}
 
 % Well spaced lines in tables
@@ -15,7 +15,7 @@
 % Contact Information
 \newcommand{\contactinformation}[1]{
 	\begin{center}
-		{\huge \textbf{Cristian Palma - #1}}
+		{\LARGE \textbf{Cristian Palma - #1}}
 
 		\vspace{0.5cm}
 		\href{mailto:cristian.palma.foster@gmail.com}{cristian.palma.foster@gmail.com},
@@ -38,12 +38,15 @@
 \newcommand{\data}[2]{
 	\small #1 \hfill \small \textcolor{gray}{\textit{#2}}\\
 }
+\newcommand{\entry}[3]{
+	\small #1 \textcolor{gray}{#2} \hfill \small \textcolor{gray}{\textit{#3}}\\
+}
 \newcommand{\desc}[1]{
 	\small #1 
 	\vspace{0.1cm}\\
 }
 \newcommand{\courses}[1]{
-	\footnotesize \textcolor{gray}{#1} \\
+	\footnotesize \textcolor{gray}{#1}\\
 }
 \newcommand{\enumeration}[2]{
 	\textcolor{gray}{\textbf{#1:}}

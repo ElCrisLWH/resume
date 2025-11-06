@@ -1,22 +1,31 @@
-\documentclass[10pt]{article}
+\documentclass{article}
 
-\usepackage[left=2cm,top=1.5cm,right=2cm,bottom=2.5cm]{geometry} 
+\usepackage[left=2cm,top=1.5cm,right=2cm,bottom=2cm]{geometry} 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{microtype}
+% \usepackage{microtype}
 \usepackage[hidelinks]{hyperref}
 \usepackage{enumitem}
 \setlist{nosep,leftmargin=*}
+\usepackage[numbers]{natbib}
+\usepackage{setspace}
+\renewcommand{\refname}{}
+
+\makeatletter
+\renewcommand\bibsection{\vspace{-\baselineskip}}
+\makeatother
+% \usepackage[backend=biber,style=authoryear,maxbibnames=99,maxcitenames=99]{biblatex}
+% \addbibresource{refs.bib}
 
 \input{resume}
 
 \begin{document}
 
-\contactinformation{Mathematical Engineer}
+\contactinformation{Researcher in Algorithms and Optimization}
 
 \begin{concept}{Education}
-	\data{MSc in Applied Mathematics on Combinatorial Optimization Algorithms, University of Chile.}{Chile, 2022 - 2023}
-	\courses{Thesis on Approximation Algorithms for Concave Load Balancing.}
+	\entry{PhD in Operations Research, Cornell University.}{Advised by Éva Tardos.}{USA, 2024 - 2029}
+	\entry{MSc in Applied Mathematics, University of Chile.}{Advised by José A. Soto.}{Chile, 2022 - 2023} %on Combinatorial Optimization Algorithms
 	% \courses{Complexity Theory, Graph Theory, Distributed Computing, Approximation Algorithms.}
 	\data{BSc in Mathematics and Computer Science Engineering, École CentralSupélec.}{France, 2019 - 2021}
 	% \courses{Web Development, Graph Propagation, Networks and Security, Algorithms, Big Data Processing, Machine Learning, Statistics.}
@@ -24,12 +33,15 @@
 \end{concept}
 
 \begin{concept}{Work Experience}
+	\job{Operations Research Engineer at Center for Mathematical Modeling}{Chile, 2024}
+	\desc{Applying Mixed-Integer Linear Programming techniques for solving a Crew Scheduling problem in Python.\\
+	Decreased computation time of crew schedules from a day to minutes by applying MILP techniques in Pyhton.}
 	\job{Research Assistant at Center for Mathematical Modeling}{Chile, 2022 - 2023}
 	\desc{Development of Approximation Algorithms for Concave Load Balancing.}
 	% \job{Teaching Professor at CMAT Mathematical Championship}{Chile, 2022}
 	% \desc{Mathematical Olympiad training for High School Students.}
 	\job{Software Engineer Intern at Bigblue}{France, 2021}
-	\desc{Problem Solving and Backend dev on Golang with FoundationDB on e-commerce logistics.} 
+	\desc{Problem solving and backend dev in Golang with FoundationDB on e-commerce logistics.} 
 	% Enabled Eco-friendly Deliveries by \textbf{integrating} a Green Carrier to the \textbf{Transportation Management System}.\\
 	% Enabled Spanish Launch by Integrating a Local Carrier.\\
 	% Enabled Invoicing Multiple Countries by extending the \textbf{Billing System} with a per Country Configuration.\\
@@ -39,39 +51,50 @@
 	% \desc{Assisting the Warehouse Manager and Picking and Packing orders.}
 	% \job{Language Tandem Developer at BdI CentraleSupélec}{France, 2020}
 	% \desc{Organizing multilingual conversation meetings.\\
-	% Matched 47\% more people by implementing a \textbf{Matching Algorithm} on Python.}%Reduced Computation Time to miliseconds
-	\job{Research Intern at Sondra Signal Processing Lab}{France, 2020}
-	\desc{Testing an Order Selection method for \textbf{Image Processing} and \textbf{Finance} on Matlab.\\
-	Increased Return on Investment on 50\% by using Minimum Variance Portfolio.}
+	% Matched 47\% more people by implementing a \textbf{Matching Algorithm} in Python.}%Reduced Computation Time to miliseconds
+	% \job{Research Intern at Sondra Signal Processing Lab}{France, 2020}
+	% \desc{Testing an Order Selection method for \textbf{Image Processing} and \textbf{Finance} in Matlab.\\
+	% Increased Return on Investment on 50\% by using Minimum Variance Portfolio.}
 	% \job{Academic at CMAT Mathematical Championship}{Chile, 2017 - 2019}
 	% \desc{Solving problems on Youtube. Suggesting problems for the exams.}
 \end{concept}
 
 \begin{concept}{Teaching Assistantships}
+	\data{\textbf{Algorithmic Game Theory} (2025) at Cornell University}{}
+	\data{Practical Tools for \textbf{Operations Research}, \textbf{Machine Learning} and \textbf{Data Science} (2025) at Cornell University}{}
 	\data{\textbf{Graph Theory} (2023) and \textbf{Calculability and Computational Complexity} (2023) at University of Chile}{}
 	\data{\textbf{Mixed Linear Programming} (2022, 2023) and \textbf{Combinatorial Algorithms} (2022) at University of Chile}{}
-	\data{\textbf{Partial Differential Equations} (2021), \textbf{Measure Theory and Probabilities} (2020) at École CentraleSupélec}{}
-	\data{\textbf{Multivariable Calculus} (2019) \textbf{Algorithms and Data Structures} (2018) at University of Chile}{}
-	\data{\textbf{Differential and Integral Calculus} (2023, 2022) at University of Chile}{}
-	\data{Introduction to \textbf{Calculus} (2023, 2018) and \textbf{Algebra} (2023, 2022) at University of Chile}{}
+	\data{Partial Differential Equations (2021), Measure Theory and Probability (2020) at École CentraleSupélec}{}
+	\data{Multivariable Calculus (2019) \textbf{Algorithms and Data Structures} (2018) at University of Chile}{}
+	\data{Differential and Integral Calculus (2023, 2022) at University of Chile}{}
+	\data{Introduction to Calculus (2023, 2018) and Algebra (2023, 2022) at University of Chile}{}
 \end{concept}
 
-\begin{concept}{Projects}
-	\data{Multipath Transmission Protocols for Load Balancing on Networks dev on \textbf{Python}.}{2024}
-	\courses{Ranked 15th at IMC Challenge of Huawei.}
-	% \data{Binge-Watching Planner website \textbf{Frontend} dev on \textbf{JavaScript} using TMDB \textbf{API}.}{2021}%Binger
-	% \data{Weather Forecast website \textbf{Frontend} dev on \textbf{JavaScript} using OpenWeather \textbf{API} and \textbf{Node.js}.}{2021}%Aurora
-	\data{Insurance Revaluation Optimization using \textbf{Clustering} and \textbf{Parametric Optimization} on Matlab.}{2021}%with Generali and CentraleSupélec
-	\data{Noise Control using \textbf{Parametric Optimization} of PDE on Python.}{2020}%with Onera and CentraleSupélec
-	% \data{Film Recommendation website \textbf{Backend} dev with Amazon DynamoDB.}{2020}%with Theodo and CentraleSupélec
-	\data{\textbf{Propagation Maximization Algorithm} on Python for a Viral Marketing Campaign.}{2020}%with Artefact and CentraleSupélec
-	\data{Geoproximity based Social Network prototype Full Stack dev for Facebook Hackathon Chile.}{2019}%on JavaScript
-	% \data{Tour Guide Robot prototype dev and assembly on \textbf{Java} using Lego Mindstorms.}{2018}%Ruteador
-	% \data{Matrix Multiplication Optimization.}{2018}
-	% \data{Huffman Code Compresion.}{2018}
-	% \data{Defective Parts Detector Robot prototype dev and assembly on \textbf{Clang} using Arduino.}{2017}
-	% \data{Pokémon Game basic replication on \textbf{Python}.}{2017}
-	% \data{Expresions and Derivatives Calculator.}{2017}
+\begin{concept}{Talks}
+	\entry{ORIE PhD Colloquium, Cornell University.}{Talk on \cite{abel2025learning}.}{USA, 2025}
+	\entry{Young Researchers Workshop, Cornell University.}{Poster on \cite{abel2025learning}.}{USA, 2025}
+	\entry{Algorithms, Game Theory, Combinatorics and Optimization (AGCO) Seminar.}{Talk on \cite{abel2025learning}.}{Chile, 2025}
+	\entry{New York City Operations Day, New York University.}{Poster on \cite{palma2024load}.}{USA, 2025}
+	\entry{XIX Summer School in Discrete Mathematics, Center for Mathematical Modelling.}{Talk and Poster on \cite{palma2024load}.}{Chile, 2024}
+	\entry{Discrete Mathematics Session of the XCI Annual Meeting of the SOMACHI.}{Talk and Poster on \cite{palma2024load}.}{Chile, 2023} %(Upcoming, Confirmed)
+	\entry{Algorithms, Game Theory, Combinatorics and Optimization (AGCO) Seminar.}{Talk on \cite{palma2024load}.}{Chile, 2023}
+	% \data{Seminar of Master Students of the Mathematical Engineering Department, University of Chile.}{Chile, 2023}
+	\entry{Symposium of Graduate Students of the Engineering School, University of Chile.}{Talk and Poster on \cite{palma2024load}.}{Chile, 2023}
+	% \data{Scientific Communication Project, École CentraleSupélec.}{France, 2020}
+\end{concept}
+
+\begin{concept}{Publications}
+	\vspace{0.2cm}
+	\begingroup
+	\setlength{\bibsep}{0pt}        % no extra space between items
+	\setstretch{0.95}               % optional: slightly tighter line spacing
+	\bibliographystyle{plainnat}    % or whatever style
+	\nocite{*}
+	\small
+	\bibliography{refs}
+	\endgroup
+
+	\vspace{0.2cm}
 \end{concept}
 
 \begin{concept}{Honors}
@@ -92,23 +115,26 @@
 	% \data{Participation at the National Mathematical Olympiad of SOMACHI, Chile.}{2012}
 \end{concept}
 
-\begin{concept}{Talks}
-	\data{XIX Summer School in Discrete Mathematics, Center for Mathematical Modelling.}{Chile, 2024}
-	\data{Discrete Mathematics Session of the XCI Annual Meeting of the SOMACHI.}{Chile, 2023} %(Upcoming, Confirmed)
-	% \courses{Short introductory talk about Concave Load Balancing for academics.}
-	\data{Algorithms, Game Theory, Combinatorics and Optimization (AGCO) Seminar.}{Chile, 2023}
-	% \courses{Long technical talk about Concave Load Balancing for academcis.}
-	\data{Seminar of Master Students of the Mathematical Engineering Department, University of Chile.}{Chile, 2023}
-	% \courses{Short introductory talk about Concave Load Balancing for undergraduate students.}
-	\data{Symposium of Graduate Students of the Engineering Department, University of Chile.}{Chile, 2023}
-	% \courses{Divulgative poster exposition about Concave Load Balancing for engineering academics and students.} %One minute presentation
-	% \data{Scientific Communication Project, École CentraleSupélec.}{France, 2020}
-	% \courses{Divulgative video presentation about Image Processing for high schoolers.}
+\begin{concept}{Projects}
+	\data{Multipath Transmission Protocols for \textbf{Load Balancing on Networks} dev in Python.}{2024}
+	\courses{Ranked 15th at IMC Challenge of Huawei.}
+	% \data{Binge-Watching Planner website \textbf{Frontend} dev in \textbf{JavaScript} using TMDB \textbf{API}.}{2021}%Binger
+	% \data{Weather Forecast website \textbf{Frontend} dev in \textbf{JavaScript} using OpenWeather \textbf{API} and \textbf{Node.js}.}{2021}%Aurora
+	% \data{Insurance Revaluation Optimization using \textbf{Clustering} and \textbf{Gradient Descent} in Matlab with Generali.}{2021}%with Generali and CentraleSupélec
+	\data{\textbf{Matching Algorithm} for Language Tandem deployed at École CentraleSupélec}{2020}
+	\courses{Matched 47\% more people and reduced computation time to miliseconds with a Python implementation.}
+	% \data{Noise Control using \textbf{Parametric Optimization} of PDE in Python with ONERA.}{2020}%with Onera and CentraleSupélec
+	% \data{Film Recommendation website \textbf{Backend} dev with Amazon DynamoDB.}{2020}%with Theodo and CentraleSupélec
+	% \data{\textbf{Propagation Maximization Algorithm} in Python for a Viral Marketing Campaign with Artefact.}{2020}%with Artefact and CentraleSupélec
+	% \data{Geoproximity based Social Network prototype Full Stack dev for Facebook Hackathon Chile.}{2019}%in JavaScript
+	% \data{Tour Guide Robot prototype dev and assembly in Java using Lego Mindstorms.}{2018}%Ruteador
+	% \data{Matrix Multiplication Optimization.}{2018}
+	% \data{Huffman Code Compresion.}{2018}
+	% \data{Defective Parts Detector Robot prototype dev and assembly in \textbf{Clang} using Arduino.}{2017}
+	% \data{Pokémon Game basic replication in \textbf{Python}.}{2017}
+	% \data{Expresions and Derivatives Calculator.}{2017}
 \end{concept}
 
-\enumeration{Thesis}{Palma C, Soto JA. Load Balancing under Identical Concave Functions.}
-
-\vspace{0.2cm}
 \enumeration{Computer Skills}{Programming: Python, Matlab, Julialang, Java, Clang, Golang and MySQL.}
 % Writing: MS Office, Jupyter and \LaTeX.
 % Databases: DynamoDB, FoundationDB and MySQL.
