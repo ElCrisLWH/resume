@@ -24,8 +24,8 @@ The commands are:
 -   `\job`: builds the job title, location and date.
 -   `\desc`: free space to explain the impact you had at that position. When possible, recommended to follow the pattern: Accomplished x as measured by y, by doing z.
 -   `\data`: builds a one-line experience with its location or date.
--   `\map`: begins a two columns table, intended to be used a map listing properties related to a concept.
--   `\entry`: builds the concept and its related properties.
+-   `\courses`: adds a simple lighter line, intended for listing relevant courses taken below an education entry.
+-   `\enumeration`: simple concept, aimed for a one line enumeration.
 
 ## Setup
 

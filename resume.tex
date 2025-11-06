@@ -6,7 +6,7 @@
 \pagenumbering{gobble} % erase page numbers
 
 % Well spaced paragraphs
-\setlength{\parskip}{-5pt}
+\setlength{\parskip}{-1pt}
 \setlength\parindent{0pt}
 
 % Well spaced lines in tables
@@ -45,16 +45,7 @@
 \newcommand{\courses}[1]{
 	\footnotesize \textcolor{gray}{#1} \\
 }
-
-\newenvironment{map}[1]{
-	\concept{#1}
-	
-	\hspace{-0.3cm}
-	\begin{tabular}{lr}
-}{ 
-	\end{tabular}\\
-}
-
-\newcommand{\entry}[2]{
-	\small #1 & \small #2\\
+\newcommand{\enumeration}[2]{
+	\textcolor{gray}{\textbf{#1:}}
+	{\small #2}
 }
